@@ -10,20 +10,20 @@ int main() {
 
     /*----Variaveis----*/
     //torre anda 5 casas para a Direita
-    const torre = 5;
+    const torre;
     //bispo anda 5 casas na diagonal (cima, direita)
-    const bispo = 5;
+    const bispo;
     //rainha move 8 casas para a esquerda
-    const rainha = 8;
+    const rainha;
 
     /*----Loops----*/
     
     //bispo em do while
     do
     {
-        printf("cima\n")
-        printf("cima\n")
-    } while (condition);
+        printf("cima\n");
+        printf("cima\n");
+    } while (bispo < 5);
     
     // Implementação de Movimentação do Bispo
     // Sugestão: Utilize uma estrutura de repetição para simular a movimentação do Bispo em diagonal.
