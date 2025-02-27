@@ -18,7 +18,7 @@ int main() {
 
     /*----Loops----*/
     
-    //bispo em do while
+    //bispo move 5 casas para cima e para direita em do while
     printf("\n\nBispo Move:\n");
     do
     {
@@ -27,8 +27,7 @@ int main() {
         bispo++;
     } while (bispo <= 5);//repete 5 vezes
 
-    // Implementação de Movimentação da Torre
-    // Sugestão: Utilize uma estrutura de repetição para simular a movimentação da Torre para a direita.
+    //Torre move 5 casas para a direita em while
     printf("\n\nTorre Move:\n");
     while (torre <= 5)
     {
@@ -36,9 +35,7 @@ int main() {
         torre++;
     }
     
-    // Implementação de Movimentação da Rainha
-    // Sugestão: Utilize uma estrutura de repetição para simular a movimentação da Rainha para a esquerda.
-    //rainha move 8 casas para a esquerda
+    //rainha move 8 casas para a esquerda em for
     printf("\n\nRainha Move:\n");
     for (int rainha = 0; rainha < 8; rainha++)
     {
