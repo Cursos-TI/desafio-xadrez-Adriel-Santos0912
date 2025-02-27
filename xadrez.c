@@ -9,30 +9,42 @@ int main() {
     // Sugestão: Declare variáveis constantes para representar o número de casas que cada peça pode se mover.
 
     /*----Variaveis----*/
-    //torre anda 5 casas para a Direita
-    const torre = 5;
     //bispo anda 5 casas na diagonal (cima, direita)
-    const bispo = 5;
-    //rainha move 8 casas para a esquerda
-    const rainha = 8;
+    int bispo = 1;
+    //torre anda 5 casas para a Direita
+    int torre = 1;
+
+    
 
     /*----Loops----*/
     
     //bispo em do while
+    printf("\n\nBispo Move:\n");
     do
     {
-        printf("cima\n")
-        printf("cima\n")
-    } while (condition);
-    
-    // Implementação de Movimentação do Bispo
-    // Sugestão: Utilize uma estrutura de repetição para simular a movimentação do Bispo em diagonal.
+        printf("cima\n");
+        printf("direita\n");
+        bispo++;
+    } while (bispo <= 5);//repete 5 vezes
 
     // Implementação de Movimentação da Torre
     // Sugestão: Utilize uma estrutura de repetição para simular a movimentação da Torre para a direita.
-
+    printf("\n\nTorre Move:\n");
+    while (torre <= 5)
+    {
+        printf("direita\n");
+        torre++;
+    }
+    
     // Implementação de Movimentação da Rainha
     // Sugestão: Utilize uma estrutura de repetição para simular a movimentação da Rainha para a esquerda.
+    //rainha move 8 casas para a esquerda
+    printf("\n\nRainha Move:\n");
+    for (int rainha = 0; rainha < 8; rainha++)
+    {
+        printf("Esquerda\n");
+    }
+    
 
     // Nível Aventureiro - Movimentação do Cavalo
     // Sugestão: Utilize loops aninhados para simular a movimentação do Cavalo em L.
