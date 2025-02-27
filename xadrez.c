@@ -8,6 +8,23 @@ int main() {
     // Nível Novato - Movimentação das Peças
     // Sugestão: Declare variáveis constantes para representar o número de casas que cada peça pode se mover.
 
+    /*----Variaveis----*/
+    //torre anda 5 casas para a Direita
+    const torre = 5;
+    //bispo anda 5 casas na diagonal (cima, direita)
+    const bispo = 5;
+    //rainha move 8 casas para a esquerda
+    const rainha = 8;
+
+    /*----Loops----*/
+    
+    //bispo em do while
+    do
+    {
+        printf("cima\n")
+        printf("cima\n")
+    } while (condition);
+    
     // Implementação de Movimentação do Bispo
     // Sugestão: Utilize uma estrutura de repetição para simular a movimentação do Bispo em diagonal.
 
